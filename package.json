@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "mocha": "mocha tests/**/*.test.js",
-    "test": "npm run mocha"
+    "test": "npm run mocha",
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "chalk": "^2.4.2",
