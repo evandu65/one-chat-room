@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "mocha": "mocha tests/**/*.test.js"
+    "mocha": "mocha tests/**/*.test.js",
+    "test": "npm run mocha"
   },
   "dependencies": {
     "chalk": "^2.4.2",
